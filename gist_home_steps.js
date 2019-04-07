@@ -68,6 +68,5 @@ When(/^User click delete$/, () => {
 });
 
 Then(/^User current git should be deleted$/, () => {
-    return browser.();
-  });
-  
+  return browser.assertDeletedTest();
+});
